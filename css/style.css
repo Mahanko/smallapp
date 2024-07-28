@@ -65,6 +65,9 @@ ul.app-badge li a img {
   ul.app-badge li {
     margin-bottom: 10px;
   }
+  .body-wrapper{
+    width: 100% !important;
+  }
 }
 
 ul.post-tag {
