@@ -11,7 +11,11 @@ body {
   font-style: normal;
   user-select: none;
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  margin: 0 auto;
+}
+html{
+  width: 100%;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -96,7 +100,8 @@ ul.app-badge li a img {
     margin-bottom: 10px;
   }
   .body-wrapper{
-    width: 130% !important;
+    width: 10% !important;
+    margin-left: 300px !important;
   }
 }
 .team{
