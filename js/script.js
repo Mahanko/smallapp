@@ -18,7 +18,7 @@ const addEventOnElements = function (elements, eventType, callback) {
  * loading will be end after document is loaded
  */
 
-const preloader = document.querySelector("[data-preaload]");
+const preloader = document.getElementById("preload");
 
 window.addEventListener("load", function () {
   preloader.classList.add("loaded");
