@@ -10,15 +10,12 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Small Apps | Bootstrap App Landing Template</title>
+  <title>Small Apps | SignUp</title>
 
   <!-- Mobile Specific Metas
   ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Bootstrap App Landing Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Small Apps Template v1.0">
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
@@ -35,7 +32,63 @@
   <link href="css/style.css" rel="stylesheet">
 
 </head>
+<nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
+  <div class="container">
+    <a class="navbar-brand" href="homepage-2.html"><img src="images/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" dir="rtl">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown @@home">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">خانه
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item @@home1" href="index.html">صفحه اصلی</a></li>
+            <li><a class="dropdown-item" href="homepage-2.html">دمو2</a></li>
+            <li><a class="dropdown-item @@home3" href="homepage-3.html">دمو3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">صفحات
+            <span><i class="ti-angle-down"></i></span>
+          </a>
+          <!-- Dropdown list -->
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="team.html">تیم ما</a></li>
+            <li><a class="dropdown-item @@career" href="career.html">حرفه</a></li>
+            <li><a class="dropdown-item @@blog" href="blog-single.html">وبلاگ</a></li>
+            <li><a class="dropdown-item @@privacy" href="privacy-policy.html">حریم شخصی</a></li>
+            <li><a class="dropdown-item @@faq" href="FAQ.html">سوالات متداول</a></li>
+            <li><a class="dropdown-item active" href="sign-up.html">ثبت نام</a></li>
+            <li><a class="dropdown-item" href="sign-in.html">ورود</a></li>
+            <li><a class="dropdown-item" href="404.html">صفحه 404</a></li>
+            <li><a class="dropdown-item" href="comming-soon.html">صفحه به زودی</a></li>
 
+            <li class="dropdown dropdown-submenu dropleft">
+              <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">زیر منو</a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                <li><a class="dropdown-item" href="index.html">تست</a></li>
+                <li><a class="dropdown-item" href="index.html">تست</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item @@about">
+          <a class="nav-link" href="about.html">درباره ما</a>
+        </li>
+        <li class="nav-item @@contact">
+          <a class="nav-link" href="contact.html">تماس با ما</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
 
 <!--=============================
@@ -52,25 +105,23 @@
 					</div>
 					<!-- Content -->
 					<div class="content text-center">
-						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt=""></a>
-						</div>
 						<div class="title-text">
-							<h3>Sign Up for New Account</h3>
+							<h3>حساب خود را به راحتی بسازید</h3>
 						</div>
 						<form action="#">
 							<!-- Username -->
-							<input class="form-control main" type="text" placeholder="Your Name" required>
+							<input class="form-control main" type="text" placeholder="نام و نام خانوداگی" required>
 							<!-- Email -->
-							<input class="form-control main" type="email" placeholder="Email Address" required>
+							<input class="form-control main" type="email" placeholder="ایمیل" required>
 							<!-- Password -->
-							<input class="form-control main" type="password" placeholder="Password" required>
+							<input class="form-control main" type="password" placeholder="پسوورد" required>
+							<input class="form-control main" type="password" placeholder="تکرار پسوورد" required>
 							<!-- Submit Button -->
-							<button class="btn btn-main-md">sign up</button>
+							<button class="btn btn-main-md">ساخت حساب</button>
 						</form>
-						<div class="new-acount">
-							<p>By clicking “Sign Up” I agree to <a href="privacy-policy.html">Terms of Conditions.</a></p>
-							<p>Anready have an account? <a href="sign-in.html">SIGN IN</a></p>
+						<div class="new-acount" dir="rtl">
+							<p>شرایط و <a href="privacy-policy.html">"قوانین و مقررات"</a></p>
+							<p>حساب از قبل دارید؟ <a href="sign-in.html">ورود</a></p>
 						</div>
 					</div>
 				</div>
