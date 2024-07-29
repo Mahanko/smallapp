@@ -34,8 +34,21 @@
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
 </head>
-
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./images/logo.png">
+  <link rel="preload" as="image" href="./images/logo.png">
+  <link rel="preload" as="image" href="./images/logo.png">
 <body class="body-wrapper" data-spy="scroll" data-target=".privacy-nav">
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Small App</p>
+  </div>
 
 <nav class="navbar main-nav navbar-expand-lg px-2 px-sm-0 py-2 py-lg-0">
 		<div class="container">
@@ -166,7 +179,7 @@
 			<div class="col-lg-6 ml-auto justify-content-center">
 				<!-- Feature Mockup -->
 				<div class="image-content" data-aos="fade-right">
-					<img class="img-fluid" src="images/feature/feature-new-01.jpg" alt="iphone">
+					<img class="img-fluid" src="./images/feature/feature-new-01.jpg" alt="iphone">
 				</div>
 			</div>
 			<div class="col-lg-6 mr-auto align-self-center">
