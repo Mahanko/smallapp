@@ -1560,6 +1560,10 @@ hr {
   overflow: hidden;
   border-radius: 8px;
 }
+.team-about{
+  width: ;
+  height: 250px;
+}
 .hover-zoom img {
   transition: 0.3s ease;
 }
