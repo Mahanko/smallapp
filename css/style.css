@@ -1344,6 +1344,9 @@ hr {
   margin-bottom: 15px;
   overflow: hidden;
 }
+.widthpost{
+  height: 200px;
+}
 .post-sm .post-thumb img {
   transition: 0.3s ease;
 }
